@@ -1,0 +1,55 @@
+/* NavBar.css */
+
+/* Coontenedor del Navbar */
+.navbar-container {
+    height: 100px; 
+    margin: 0 auto; 
+
+}
+
+/* Logo  */
+.navbar-brand {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #ab8484; 
+}
+.logo-img {
+    width: 150px; 
+    height: auto; 
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+/* Links NavBar */
+.nav-link {
+    font-size: 18px; 
+    color: #b06f6f; 
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(120, 32, 32);
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: rgba(118, 100, 100, 0.82);
+}
+
+/* Carrito de compras */
+.carrito-style {
+display: flex; 
+align-items: center; 
+text-decoration: none; 
+color: #627a93; 
+font-weight: bold;
+}
+
+.carrito-style:hover {
+color: #5a0f1f; 
+}
+
+.carrito-style .react-icons {
+font-size: 25px; 
+margin-right: 5px; 
+}
