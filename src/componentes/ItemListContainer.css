@@ -28,14 +28,14 @@
     font-size: 50px;
 }
 
-
+/* Responsive */
 @media (max-width: 768px) {
     .texto-superpuesto {
-        max-width: 90%; /* Ajusta el ancho en pantallas más pequeñas */
-        padding: 10px; /* Reduce el padding para dispositivos móviles */
+        max-width: 90%; 
+        padding: 10px; 
     }
 
     .texto-superpuesto h1 {
-        font-size: 36px; /* Reduce el tamaño de fuente en dispositivos móviles */
+        font-size: 36px; 
     }
 }
