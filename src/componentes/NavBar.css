@@ -53,3 +53,28 @@ color: #5a0f1f;
 font-size: 25px; 
 margin-right: 5px; 
 }
+
+/* Estilos para la barra de navegación en dispositivos móviles */
+@media (max-width: 768px) {
+    .navbar-container {
+        height: auto; /* Ajusta la altura automáticamente en dispositivos móviles */
+        padding-top: 10px; /* Espaciado superior para separar la barra de navegación de la imagen de fondo */
+    }
+
+    .navbar-brand {
+        font-size: 20px; /* Reduce el tamaño de la fuente del logotipo en dispositivos móviles */
+    }
+
+    .logo-img {
+        width: 100px; /* Reduce el tamaño del logotipo en dispositivos móviles */
+    }
+
+    .nav-link {
+        font-size: 16px; /* Reduce el tamaño de la fuente de los enlaces en dispositivos móviles */
+        margin-right: 20px; /* Reduce el margen derecho de los enlaces en dispositivos móviles */
+    }
+
+    .carrito-style {
+        margin-right: 10px; /* Reduce el margen derecho del icono de carrito en dispositivos móviles */
+    }
+}
