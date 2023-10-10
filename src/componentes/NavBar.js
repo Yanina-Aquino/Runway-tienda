@@ -15,15 +15,16 @@ import { BsFillCartFill } from "react-icons/bs";
 const NavBar = () => {
     return (
         <div>
-        <Navbar bg="light" data-bs-theme="light">
+        <Navbar expand="lg"  bg="light" data-bs-theme="light">
             <Container className="navbar-container">
-                <div>
+
                 {/* Logo img */}
                 <Navbar.Brand href="#home" className="navbar-brand">
                     <img src={logo} alt="Logo de Runway" className="logo-img"/>
                 </Navbar.Brand>
-                </div>
-                <div>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+
                 {/* Links navBar */}
                 <Nav className="me-auto mx-auto">
                     <Nav.Link href="#home" className="nav-link">Home</Nav.Link>
@@ -31,9 +32,7 @@ const NavBar = () => {
                     <Nav.Link href="#contacto" className="nav-link">Contacto</Nav.Link>
                     <Nav.Link href="#politica-cambios" className="nav-link">Politica de cambios</Nav.Link>
                 </Nav>
-                </div>
 
-                <div>
                 {/* Icono carrito de compras */}
                 <Nav className="ml-auto">
                     <Nav.Link href="#carrito" className="carrito-style">
@@ -41,8 +40,8 @@ const NavBar = () => {
                         <p>0</p>
                     </Nav.Link>
                 </Nav>
-                </div>
-            
+
+                </Navbar.Collapse>
             </Container>
         </Navbar>
         </div>

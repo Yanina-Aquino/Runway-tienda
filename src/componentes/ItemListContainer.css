@@ -27,3 +27,15 @@
 .texto-superpuesto h1 {
     font-size: 50px;
 }
+
+
+@media (max-width: 768px) {
+    .texto-superpuesto {
+        max-width: 90%; /* Ajusta el ancho en pantallas más pequeñas */
+        padding: 10px; /* Reduce el padding para dispositivos móviles */
+    }
+
+    .texto-superpuesto h1 {
+        font-size: 36px; /* Reduce el tamaño de fuente en dispositivos móviles */
+    }
+}

@@ -13,7 +13,7 @@ function ItemListContainer(props) {
     
     return (
         <div className="imagen-container">
-            <Image src={principal} fluid className="imagen" />
+            <Image src={principal} fluid className="imagen" alt="Imagen principal" />
             <div className="texto-superpuesto">
                 <h1>{props.greeting}</h1>
             </div>
