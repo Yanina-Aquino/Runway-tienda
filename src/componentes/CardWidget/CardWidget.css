@@ -1,0 +1,25 @@
+
+/* Carrito de compras */
+.carrito-style {
+    display: flex; 
+    align-items: center; 
+    text-decoration: none; 
+    color: #627a93; 
+    font-weight: bold;
+    }
+    
+    .carrito-style:hover {
+    color: #5a0f1f; 
+    }
+    
+    .carrito-style .react-icons {
+    font-size: 25px; 
+    margin-right: 5px; 
+    }
+    
+/*Responsive*/
+@media (max-width: 768px) {
+    .carrito-style {
+        margin-right: 10px; 
+    }
+}

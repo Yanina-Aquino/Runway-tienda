@@ -7,9 +7,11 @@ import Navbar from 'react-bootstrap/Navbar';
 //CSS
 import './NavBar.css';
 //importar logo
-import logo from '../../img/Logo/1.png';
-//iconos boostrap
+import logo from '../../img/Logo/1.png'; 
+
 import { BsFillCartFill } from "react-icons/bs";
+
+import CardWidget from '../CardWidget/CardWidget';
 
 
 const NavBar = () => {
@@ -36,10 +38,12 @@ const NavBar = () => {
 
                         {/* Icono carrito de compras */}
                         <Nav className="ml-auto">
-                            <Nav.Link href="#carrito" className="carrito-style">
+
+                            <CardWidget/>
+                            {/* <Nav.Link href="#carrito" className="carrito-style">
                                 <BsFillCartFill className="react-icons"/>
                                 <p>0</p>
-                            </Nav.Link>
+                            </Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
