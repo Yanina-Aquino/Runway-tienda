@@ -5,9 +5,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 //CSS
-import '../componentes/NavBar.css';
+import './NavBar.css';
 //importar logo
-import logo from '../img/Logo/1.png';
+import logo from '../../img/Logo/1.png';
 //iconos boostrap
 import { BsFillCartFill } from "react-icons/bs";
 
