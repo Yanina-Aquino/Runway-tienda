@@ -37,11 +37,11 @@
     },
     {
     "id": 5,
-    "nombre": "Pantalon jean rosa",
+    "nombre": "Pantalon jean",
     "categoria": "pantalones",
     "precio": 19999,
-    "descripcion": "Pantalon rosa de jean",
-    "imagen": "https://img.freepik.com/foto-gratis/mujer-llevando-tacones-altos-almacenamiento_23-2150261097.jpg?w=740&t=st=1698706119~exp=1698706719~hmac=27b1464810381ca708c71a0a32f1edf8dd3b9e38b32855f410eabdd273885049",
+    "descripcion": "Pantalon de jean",
+    "imagen": "https://images.unsplash.com/photo-1669059921524-327a4c52cff3?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "stock": 40
     },
     {
@@ -50,16 +50,16 @@
     "categoria": "vestidos",
     "precio": 49999,
     "descripcion": "Elegante vestido de noche para eventos especiales",
-    "imagen": "https://img.freepik.com/foto-gratis/mujer-caucasica-joven-sonriente-corte-pelo-corto-vestido-negro-noche-posando-sobre-fondo-blanco-concepto-moda_197531-31414.jpg?w=1380&t=st=1698706159~exp=1698706759~hmac=8319ade43200b7dc7f83a4ff90328a8c5728e8670018e3ec9e512093f2e1fcd2",
+    "imagen": "https://images.unsplash.com/photo-1508742345712-0656a285ac27?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "stock": 20
     },
     {
     "id": 7,
-    "nombre": "Remera rayada",
+    "nombre": "Remera estampada roja",
     "categoria": "remeras",
     "precio": 3999,
-    "descripcion": "Remera de rayas para un look casual",
-    "imagen": "https://img.freepik.com/foto-gratis/retrato-joven-hermosa-mujer-morena-modelo-chica-maquillaje-desnudo-gafas-ropa-hipster-verano-posando-junto-pared_158538-8997.jpg?w=740&t=st=1698706203~exp=1698706803~hmac=c6eabbd2c5c3dd227bae65eaa80f3702a098fa9cd2e8f35c79f2afc3a3317a13",
+    "descripcion": "Remera estampada con hoja otoño",
+    "imagen": "https://images.unsplash.com/photo-1554838376-645964ce075c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "stock": 45
     },
     {
@@ -77,16 +77,16 @@
     "categoria": "vestidos",
     "precio": 54999,
     "descripcion": "Vestido elegante para ocasiones especiales",
-    "imagen": "https://img.freepik.com/foto-gratis/chica-rizada-alegre-peinado-lindo-posando-juguetonamente-mientras-prueba-vestido-nuevo-elegante-mujer-joven-delgada-traje-epoca-moda-bailando-aislado-sobre-fondo-blanco_197531-3621.jpg?w=1380&t=st=1698706260~exp=1698706860~hmac=0ecc5a1f85f6cd66a85e5cd908b6793d7e13e63146aeec5161f8987705c0d7f5",
+    "imagen": "https://images.unsplash.com/photo-1562077365-9e9ed7bd25fa?auto=format&fit=crop&q=80&w=2030&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "stock": 25
     },
     {
     "id": 10,
-    "nombre": "Remera manga larga",
+    "nombre": "Remera negra",
     "categoria": "remeras",
     "precio": 2499,
-    "descripcion": "Remera de manga larga para otoño",
-    "imagen": "https://img.freepik.com/foto-gratis/vestida-cuello-alto-negro-posando-estudio_23-2149333414.jpg?w=740&t=st=1698706293~exp=1698706893~hmac=ba34cb61828fa28d9d6ad34fde748260f6a512d9cacab1b15f768ce7c7d965c1",
+    "descripcion": "Remera negra de mangas cortas",
+    "imagen": "https://images.unsplash.com/photo-1527280916202-fa1f7c499a7c?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "stock": 40
     }
 ]
