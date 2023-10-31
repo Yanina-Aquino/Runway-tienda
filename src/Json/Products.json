@@ -5,7 +5,7 @@
     "categoria": "remeras",
     "precio": 3500,
     "descripcion": "Remera de algodón",
-    "imagen": "https://img.freepik.com/foto-gratis/mujer-hermosa-joven-mirando-camara-chica-moda-verano-casual-camiseta-blanca-pantalones-vaqueros-gafas-sol-redondas-hembra-positiva-muestra-emociones-faciales-modelo-divertido-aislado-amarillo_158538-15804.jpg?w=1060&t=st=1698689975~exp=1698690575~hmac=f418b817f297a9dccc3b11311877c09c395216df09bd8493824a3dc1d7841d78",
+    "imagen": "https://images.unsplash.com/photo-1522706604291-210a56c3b376?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "stock": 60
     },
     {
@@ -14,7 +14,7 @@
     "categoria": "pantalones",
     "precio": 29999,
     "descripcion": "Pantalones de lino clásicos y cómodos",
-    "imagen": "https://img.freepik.com/foto-gratis/pantalones-sueltos-beige-camiseta-blanca-closeup-moda-femenina_53876-102147.jpg?w=740&t=st=1698690043~exp=1698690643~hmac=14c2d3c56dcd64cb4d66aa35f1beb8898c3d787fdb4e7ac606091766efa06658",
+    "imagen": "https://images.unsplash.com/photo-1604136172384-b2e9c43271ec?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fHBhbnRhbG9uJTIwbXVqZXJ8ZW58MHx8MHx8fDI%3D",
     "stock": 30
     },
     {
@@ -23,7 +23,7 @@
     "categoria": "vestidos",
     "precio": 39000,
     "descripcion": "Vestido de verano con estampado floral",
-    "imagen": "https://img.freepik.com/foto-gratis/mujer-tenencia-ramo-flores-tiro-completo_23-2148442556.jpg?w=740&t=st=1698706083~exp=1698706683~hmac=027e405175f5e5c5a3f1daddef48aa6e1b09c1c5f516abce2843a95713f3df8f",
+    "imagen": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&q=80&w=2073&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "stock": 50
     },
     {
@@ -32,7 +32,7 @@
     "categoria": "remeras",
     "precio": 2299,
     "descripcion": "Remera con diseño estampado moderno",
-    "imagen": "https://img.freepik.com/foto-gratis/mujer-bonita-camiseta_1303-14641.jpg?w=740&t=st=1698706064~exp=1698706664~hmac=70b58b9720c78f8329e1a7f037fef172af713bdaf8992bc182c856374b67b9df",
+    "imagen": "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "stock": 55
     },
     {
