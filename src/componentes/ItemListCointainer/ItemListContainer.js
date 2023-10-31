@@ -1,23 +1,35 @@
-import React from 'react'
-// imagem principal
-import principal from '../../img/principal.jpg'
-// Boostrap
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Image from 'react-bootstrap/Image';
-//CSS
-import './ItemListContainer.css';
+import React, { useState, useEffect } from 'react';
+import Productos from '../../Json/Products.json';
+import ItemList from '../ItemList/ItemList';
+import { useParams } from 'react-router-dom';
 
-<ItemListContainer greeting="¡Bienvenidos a Runway, donde la moda y el estilo se encuentran en cada paso que das!" />
+const ItemListContainer = () => {
+    const [item, setItem] = useState([]);
+    const { id } = useParams();
 
-function ItemListContainer(props) {
-    
+    useEffect(() => {
+        const fetchData = async () => {
+        try {
+            const data = await new Promise((resolve) => {
+            setTimeout(() => {
+                resolve(id ? Productos.filter(product => product.categoria === id) : Productos);
+            }, 500);
+            });
+            setItem(data);
+        } catch (error) {
+            console.log('Error', error);
+        }
+        };
+        fetchData();
+    }, [id]);
+
     return (
-        <div className="imagen-container">
-            <Image src={principal} fluid className="imagen" alt="Imagen principal" />
-            <div className="texto-superpuesto">
-                <h1>{props.greeting}</h1>
-            </div>
-        </div> 
+        <div className='container'>
+        <div className='row'>
+            <ItemList item={item} />
+        </div>
+        </div>
     );
-}
-export default ItemListContainer
+};
+
+export default ItemListContainer;

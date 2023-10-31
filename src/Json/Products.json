@@ -1,0 +1,92 @@
+[
+    {
+    "id": 1,
+    "nombre": "Remera básica",
+    "categoria": "remeras",
+    "precio": 12.99,
+    "descripcion": "Remera de algodón",
+    "imagen": "https://img.freepik.com/foto-gratis/mujer-hermosa-joven-mirando-camara-chica-moda-verano-casual-camiseta-blanca-pantalones-vaqueros-gafas-sol-redondas-hembra-positiva-muestra-emociones-faciales-modelo-divertido-aislado-amarillo_158538-15804.jpg?w=1060&t=st=1698689975~exp=1698690575~hmac=f418b817f297a9dccc3b11311877c09c395216df09bd8493824a3dc1d7841d78",
+    "stock": 60
+    },
+    {
+    "id": 2,
+    "nombre": "Pantalones de lino",
+    "categoria": "pantalones",
+    "precio": 29.99,
+    "descripcion": "Pantalones de lino clásicos y cómodos",
+    "imagen": "https://img.freepik.com/foto-gratis/pantalones-sueltos-beige-camiseta-blanca-closeup-moda-femenina_53876-102147.jpg?w=740&t=st=1698690043~exp=1698690643~hmac=14c2d3c56dcd64cb4d66aa35f1beb8898c3d787fdb4e7ac606091766efa06658",
+    "stock": 30
+    },
+    {
+    "id": 3,
+    "nombre": "Vestido floral",
+    "categoria": "vestidos",
+    "precio": 39.99,
+    "descripcion": "Vestido de verano con estampado floral",
+    "imagen": "https://img.freepik.com/foto-gratis/mujer-tenencia-ramo-flores-tiro-completo_23-2148442556.jpg?w=740&t=st=1698706083~exp=1698706683~hmac=027e405175f5e5c5a3f1daddef48aa6e1b09c1c5f516abce2843a95713f3df8f",
+    "stock": 50
+    },
+    {
+    "id": 4,
+    "nombre": "Remera estampada",
+    "categoria": "remeras",
+    "precio": 22.99,
+    "descripcion": "Remera con diseño estampado moderno",
+    "imagen": "https://img.freepik.com/foto-gratis/mujer-bonita-camiseta_1303-14641.jpg?w=740&t=st=1698706064~exp=1698706664~hmac=70b58b9720c78f8329e1a7f037fef172af713bdaf8992bc182c856374b67b9df",
+    "stock": 55
+    },
+    {
+    "id": 5,
+    "nombre": "Pantalon jean rosa",
+    "categoria": "pantalones",
+    "precio": 19.99,
+    "descripcion": "Pantalon rosa de jean",
+    "imagen": "https://img.freepik.com/foto-gratis/mujer-llevando-tacones-altos-almacenamiento_23-2150261097.jpg?w=740&t=st=1698706119~exp=1698706719~hmac=27b1464810381ca708c71a0a32f1edf8dd3b9e38b32855f410eabdd273885049",
+    "stock": 40
+    },
+    {
+    "id": 6,
+    "nombre": "Vestido de noche",
+    "categoria": "vestidos",
+    "precio": 49.99,
+    "descripcion": "Elegante vestido de noche para eventos especiales",
+    "imagen": "https://img.freepik.com/foto-gratis/mujer-caucasica-joven-sonriente-corte-pelo-corto-vestido-negro-noche-posando-sobre-fondo-blanco-concepto-moda_197531-31414.jpg?w=1380&t=st=1698706159~exp=1698706759~hmac=8319ade43200b7dc7f83a4ff90328a8c5728e8670018e3ec9e512093f2e1fcd2",
+    "stock": 20
+    },
+    {
+    "id": 7,
+    "nombre": "Remera rayada",
+    "categoria": "remeras",
+    "precio": 18.99,
+    "descripcion": "Remera de rayas para un look casual",
+    "imagen": "https://img.freepik.com/foto-gratis/retrato-joven-hermosa-mujer-morena-modelo-chica-maquillaje-desnudo-gafas-ropa-hipster-verano-posando-junto-pared_158538-8997.jpg?w=740&t=st=1698706203~exp=1698706803~hmac=c6eabbd2c5c3dd227bae65eaa80f3702a098fa9cd2e8f35c79f2afc3a3317a13",
+    "stock": 45
+    },
+    {
+    "id": 8,
+    "nombre": "Pantalones cargo",
+    "categoria": "pantalones",
+    "precio": 34.99,
+    "descripcion": "Pantalones cargo con múltiples bolsillos",
+    "imagen": "https://img.freepik.com/foto-gratis/mujer-joven-llevando-ropa-2000-s-moda-estilo_23-2149870038.jpg?w=740&t=st=1698706232~exp=1698706832~hmac=9e42b4da0c20dc1d94113d7204ff5f0e688380be51ab6bd0fcf2e69740c3485a",
+    "stock": 35
+    },
+    {
+    "id": 9,
+    "nombre": "Vestido elegante",
+    "categoria": "vestidos",
+    "precio": 54.99,
+    "descripcion": "Vestido elegante para ocasiones especiales",
+    "imagen": "https://img.freepik.com/foto-gratis/chica-rizada-alegre-peinado-lindo-posando-juguetonamente-mientras-prueba-vestido-nuevo-elegante-mujer-joven-delgada-traje-epoca-moda-bailando-aislado-sobre-fondo-blanco_197531-3621.jpg?w=1380&t=st=1698706260~exp=1698706860~hmac=0ecc5a1f85f6cd66a85e5cd908b6793d7e13e63146aeec5161f8987705c0d7f5",
+    "stock": 25
+    },
+    {
+    "id": 10,
+    "nombre": "Remera manga larga",
+    "categoria": "remeras",
+    "precio": 24.99,
+    "descripcion": "Remera de manga larga para otoño",
+    "imagen": "https://img.freepik.com/foto-gratis/vestida-cuello-alto-negro-posando-estudio_23-2149333414.jpg?w=740&t=st=1698706293~exp=1698706893~hmac=ba34cb61828fa28d9d6ad34fde748260f6a512d9cacab1b15f768ce7c7d965c1",
+    "stock": 40
+    }
+]

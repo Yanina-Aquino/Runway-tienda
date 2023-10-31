@@ -3,14 +3,14 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav';
 //CSS
-import '../CardWidget/CardWidget.css';
+import './CartWidget.css';
 //Icono carrito de compras
 import { BsFillCartFill } from "react-icons/bs";
 
 
 
 
-const CardWidget = () => {
+const CartWidget= () => {
     return (
         <div>
             <Nav.Link href="#carrito" className="carrito-style">
@@ -21,4 +21,4 @@ const CardWidget = () => {
     )
 }
 
-export default CardWidget
+export default CartWidget
