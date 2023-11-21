@@ -10,7 +10,8 @@ import './NavBar.css';
 import logo from '../../img/Logo/1.png'; 
 //Carrito de compras
 import CartWidget from '../CartWidget/CartWidget';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 
 const NavBar = () => {
     return (
@@ -20,7 +21,7 @@ const NavBar = () => {
 
                     {/* Logo img */}
                     <Navbar.Brand href="#home" className="navbar-brand">
-                        <Link><img src={logo} alt="Logo de Runway" className="logo-img"/></Link>
+                        <NavLink><img src={logo} alt="Logo de Runway" className="logo-img"/></NavLink>
                     </Navbar.Brand>
                     
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -28,17 +29,17 @@ const NavBar = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         {/* Links navBar */}
                         <Nav className="me-auto mx-auto">
-                            <Link to="/" className="nav-link">Home</Link>
-                            <Link to="/category/pantalones" className="nav-link">Pantalones</Link>
-                            <Link to="/category/remeras" className="nav-link">Remeras</Link>
-                            <Link to="/category/vestidos" className="nav-link">Vestidos</Link>
+                            <NavLink to="/" className="nav-link">Home</NavLink>
+                            <NavLink to="/category/pantalones" className="nav-link">Pantalones</NavLink>
+                            <NavLink to="/category/remeras" className="nav-link">Remeras</NavLink>
+                            <NavLink to="/category/vestidos" className="nav-link">Vestidos</NavLink>
                         </Nav>
 
                         {/* Icono carrito de compras */}
-                        <Link className="ml-auto">
+                        <NavLink className="ml-auto" to="/cart">
                             {/* Carrito de compras */}
                             <CartWidget/>
-                        </Link>
+                        </NavLink>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

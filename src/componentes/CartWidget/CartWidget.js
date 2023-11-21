@@ -1,24 +1,18 @@
-import React from 'react'
-//boostrap para react
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from 'react-bootstrap/Nav';
-//CSS
-import './CartWidget.css';
-//Icono carrito de compras
-import { BsFillCartFill } from "react-icons/bs";
+import React from "react";
+import { BsFillCartPlusFill } from "react-icons/bs";
+import {useCartContext} from '../Context/CartContext';
 
-
-
-
-const CartWidget= () => {
+const CartWidget = () => {
+    const {totalProducts, cart} = useCartContext();
     return (
         <div>
-            <Nav.Link href="#carrito" className="carrito-style">
-                <BsFillCartFill className="react-icons"/>
-                <p>0</p>
-            </Nav.Link>
+            <button type="button" className="btn colorCartButton position-relative">
+            <BsFillCartPlusFill/>
+            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{totalProducts() ||cart}</span>
+            </button>
         </div>
+
     )
 }
 
-export default CartWidget
+export default CartWidget;
