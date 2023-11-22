@@ -10,11 +10,13 @@
 .cart-button:hover {
     background-color: #ab8484 !important;
     color: white !important;
+    border-radius: 50%; 
+
 
 }
 /* Estilos para el icono del carrito */
 .cart-icon {
-    font-size: 28px;
+    font-size: 30px;
     margin-right: 5px; /* Espaciado a la derecha del icono */
 }
 
