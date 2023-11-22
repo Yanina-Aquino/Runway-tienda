@@ -1,9 +1,8 @@
-// ItemCount.js
 import React, { useEffect, useState } from "react";
-import './ItemCount.css'; // Importa tus estilos CSS
+import './ItemCount.css'; 
 
 const ItemCount = ({ initial, stock, onAdd }) => {
-  const [count, setCount] = useState(parseInt(initial));
+  const [count, setCount] = useState(parseInt(initial) || 1); 
 
   const decrease = () => {
     setCount(count - 1);
@@ -14,7 +13,7 @@ const ItemCount = ({ initial, stock, onAdd }) => {
   };
 
   useEffect(() => {
-    setCount(parseInt(initial));
+    setCount(parseInt(initial) || 1); 
   }, [initial]);
 
   return (
