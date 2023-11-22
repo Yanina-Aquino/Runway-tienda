@@ -17,7 +17,6 @@ export const Checkout = () => {
   const [apellido, setApellido] = useState('');
   const [telefono, setTelefono] = useState('');
   const [email, setEmail] = useState('');
-  const [emailConfirmacion] = useState('');
   const [error, setError] = useState('');
   const [ordenId, setOrdenId] = useState('');
 
@@ -26,15 +25,11 @@ export const Checkout = () => {
   const manejadorFormulario = (event) => {
     event.preventDefault();
 
-    if (!nombre || !apellido || !telefono || !email || !emailConfirmacion) {
+    if (!nombre || !apellido || !telefono || !email ) {
       setError('Por favor completa todos los campos');
       return;
     }
 
-    if (email !== emailConfirmacion) {
-      setError('Los campos de email no coinciden');
-      return;
-    }
     const total = totalPrice();
     const orden = {
       items: cart.map((producto) => ({
