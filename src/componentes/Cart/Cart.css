@@ -1,0 +1,58 @@
+/* Cart.css */
+
+/* Estilos para el componente Cart */
+.cart-container {
+    max-width: 600px;
+    margin: 25px auto 0;
+    padding: 20px;
+    background-color: #d8c6c6;
+    color: rgb(56, 9, 9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el componente ItemCart */
+  .item-cart-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .item-cart-image {
+    width: 100px; /* Ajusta el tamaño deseado de las imágenes */
+    height: 600px; /* Mantiene la proporción original de la imagen */
+    margin-right: 15px;
+    border-radius: 4px; /* Bordes redondeados */
+    overflow: hidden; /* Evita que las imágenes se salgan de su contenedor */
+  }
+  
+  .item-cart-details {
+    flex-grow: 1;
+  }
+  
+  /* Otros estilos para mantener la consistencia */
+  .item-cart-details h3 {
+    margin: 0;
+  }
+  
+  .cart-message,
+  .cart-link,
+  .cart-total {
+    color: white;
+  }
+  
+  .btn-total {
+    background-color: white;
+    color: #ab8484;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-total:hover {
+    background-color: rgba(119, 89, 89, 0.8);
+    color: white;
+  }

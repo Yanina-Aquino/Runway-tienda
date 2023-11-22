@@ -17,7 +17,7 @@ export const Checkout = () => {
   const [apellido, setApellido] = useState('');
   const [telefono, setTelefono] = useState('');
   const [email, setEmail] = useState('');
-  const [emailConfirmacion, setEmailConfirmacion] = useState('');
+  const [emailConfirmacion] = useState('');
   const [error, setError] = useState('');
   const [ordenId, setOrdenId] = useState('');
 
@@ -84,14 +84,10 @@ export const Checkout = () => {
     setApellido('');
     setTelefono('');
     setEmail('');
-    setEmailConfirmacion('');
   };
 
   return (
     <>
-      <h2 className="info">
-        Rellena el formulario y nos contactaremos para enviar sus productos
-      </h2>
 
       <form onSubmit={manejadorFormulario}>
         {cart.map((producto) => (
@@ -141,16 +137,6 @@ export const Checkout = () => {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-          />
-        </div>
-
-        <div className="form-group">
-          <label className="lab-check">Email Confirmacion</label>
-          <input
-            className="input-check"
-            type="email"
-            value={emailConfirmacion}
-            onChange={(e) => setEmailConfirmacion(e.target.value)}
           />
         </div>
 

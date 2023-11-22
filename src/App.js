@@ -8,8 +8,10 @@ import Cart from '../src/componentes/Cart/Cart';
 import CartProvider from '../src/componentes/Context/CartContext';
 import { Checkout } from './componentes/CheckOut/CheckOut';
 
+
 function App() {
   return (
+    <div className="body-wrapper">
     <div className="App">
       <BrowserRouter>
         <CartProvider>
@@ -23,10 +25,12 @@ function App() {
             <Route path={"/checkout"} element={<Checkout/>} />
             <Route path='*' element={<Error/>} />
             </Routes>
-            
+
           </CartProvider>
       </BrowserRouter>
+      </div>
     </div>
+    
   );
 }
 

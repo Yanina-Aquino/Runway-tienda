@@ -1,0 +1,57 @@
+/* ItemDetail.css */
+
+.item-detail-container {
+    padding: 20px;
+    background-color: white;
+    color: rgb(67, 20, 20);
+  }
+  
+  .item-info {
+    text-align: center;
+  }
+  
+  .item-image {
+    max-width: 80%; /* Modifica el ancho máximo según tus necesidades */
+    height: 500px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    /* Centra la imagen horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .item-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .item-description {
+    margin-bottom: 20px;
+  }
+  
+  .item-price {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .item-stock {
+    margin-bottom: 20px;
+  }
+  
+  .link-to-cart {
+    text-decoration: none;
+    background-color: #256827; /* Color verde */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .link-to-cart:hover {
+    background-color: rgba(37, 104, 39, 0.8); /* Color verde más oscuro al hacer hover */
+  }
+  
+  .item-count-container {
+    margin-top: 20px;
+  }

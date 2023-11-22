@@ -1,39 +1,45 @@
+/* Item.css */
+
 .container {
-    text-align: center;
-  }
-  
-  .card {
-    border: 1px solid #e0e0e0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-  }
-  
-  .card:hover {
-    transform: scale(1.05);
-  }
-  
-  .card-img-top {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .card-body {
-    padding: 10px;
-  }
-  
-  .card-text {
-    font-size: 16px;
-    margin: 10px 0;
-  }
-  
-  /* Estilos para los enlaces */
-  .text-decoration-none {
-    text-decoration: none;
-    color: #000; /* Cambia el color del enlace según tu preferencia */
-  }
-  
-  /* Estilos para los enlaces en hover (opcional) */
-  .text-decoration-none:hover {
-    color: #007bff; /* Cambia el color en hover según tu preferencia */
-  }
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #ab8484; /* Borde con color principal */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(120, 32, 32, 0.1); /* Sombra suave */
+  transition: transform 0.3s;
+  margin-top: 20px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: 350px; /* Ajusta la altura deseada para todas las imágenes */
+  object-fit: cover; /* Escala la imagen para que llene el contenedor manteniendo las proporciones */
+  border-radius: 8px 8px 0 0; /* Bordes redondeados solo en la parte superior de la imagen */
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #974d4d; /* Color de texto principal */
+}
+
+/* Estilos para los enlaces */
+.text-decoration-none {
+  text-decoration: none;
+  color: #000; /* Color del enlace según tu preferencia */
+}
+
+/* Estilos para los enlaces en hover (opcional) */
+.text-decoration-none:hover {
+  color: rgb(120, 32, 32); /* Cambia el color en hover según tu preferencia */
+}

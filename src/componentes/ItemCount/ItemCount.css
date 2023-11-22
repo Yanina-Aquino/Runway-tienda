@@ -1,29 +1,41 @@
-/* styles/ItemCount.css */
+/* ItemCount.css */
 
 .counter {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: center; /* Centrar horizontalmente */
+  flex-direction: column; /* Colocar los elementos en columna */
+  padding-bottom: 90px; /* Agregar padding al final */
+}
+
+.buttons {
+  display: flex;
   align-items: center;
 }
 
-button.operacion {
-  background-color: #b8e994; /* Verde claro */
-  color: #fff;
+.operacion {
+  background-color: rgb(215, 202, 202); /* Color de fondo */
+  color: white;
+  padding: 8px 16px;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
-  margin: 0 10px;
-  font-size: 18px;
+  margin: 0 4px; /* Espaciado entre botones */
   transition: background-color 0.3s;
 }
 
-button.operacion:disabled {
-  background-color: #d1d8e0; /* Color de fondo deshabilitado */
-  color: #808e9b; /* Color de texto deshabilitado */
-  cursor: not-allowed;
+.operacion-agregar {
+  background-color: #ab8484; /* Color verde */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px; /* Espaciado superior */
+  transition: background-color 0.3s;
 }
 
-button.operacion:hover:enabled {
-  background-color: #78e08f; /* Verde claro más brillante al pasar el mouse */
+.operacion:hover,
+.operacion-agregar:hover {
+  background-color: #764949; /* Color más oscuro al pasar el mouse */
 }
