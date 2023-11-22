@@ -1,34 +1,30 @@
-/* Estilos para el botón del carrito */
 .cart-button {
-    background-color: transparent; /* Color de fondo del botón */
-    color: #ab8484; /* Color del texto en el botón */
-    border: none; /* Sin borde */
-    padding: 5px 10px; /* Espaciado interno */
-    position: relative; 
+background-color: transparent; 
+color: #ab8484; 
+border: none; 
+padding: 5px 10px; 
+position: relative; 
 }
 
 .cart-button:hover {
-    background-color: #ab8484 !important;
-    color: white !important;
-    border-radius: 50%; 
-
-
+background-color: #ab8484 !important;
+color: white !important;
+border-radius: 50%; 
 }
-/* Estilos para el icono del carrito */
+
 .cart-icon {
-    font-size: 30px;
-    margin-right: 5px; /* Espaciado a la derecha del icono */
+font-size: 30px;
+margin-right: 5px; 
 }
 
-/* Estilos para el badge del carrito */
 .badge {
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(50%, -50%);
-    font-size: 13px;
-    background-color:#ab8484; /* Color de fondo del badge */
-    color: #fcfcfc; /* Color del texto en el badge */
-    padding: 4px 8px; /* Espaciado interno del badge */
-    border-radius: 50%; /* Forma redondeada del badge */
+position: absolute;
+top: 0;
+right: 0;
+transform: translate(50%, -50%);
+font-size: 13px;
+background-color:#ab8484; 
+color: #fcfcfc; 
+padding: 4px 8px; 
+border-radius: 50%; 
 }

@@ -1,5 +1,3 @@
-// ItemCart.js
-
 import React from 'react';
 import { useCartContext } from '../Context/CartContext';
 import './ItemCart.css';

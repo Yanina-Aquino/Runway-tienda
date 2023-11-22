@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useCartContext } from '../Context/CartContext';
 import ItemCart from '../ItemCart/ItemCart';
-import './Cart.css'; // Importa tu archivo CSS
+import './Cart.css'; 
 
 const Cart = () => {
   const { cart, totalPrice } = useCartContext();
@@ -10,7 +10,7 @@ const Cart = () => {
   if (cart.length === 0) {
     return (
       <div className="cart-container">
-        <p className="cart-message">El carrito de compras esta vacio</p>
+        <p className="cart-message">El carrito esta vacio</p>
         <Link to="/" className="cart-link">Home</Link>
       </div>
     );

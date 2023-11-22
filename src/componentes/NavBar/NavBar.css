@@ -1,13 +1,11 @@
-/* NavBar.css */
 
-/* Coontenedor del Navbar */
 .navbar-container {
     height: 100px; 
     margin: 0 auto; 
 
 }
 
-/* Logo  */
+
 .navbar-brand {
     font-size: 24px; 
     font-weight: bold; 
@@ -20,7 +18,7 @@
     vertical-align: middle; 
 }
 
-/* Links NavBar */
+
 .nav-link {
     font-size: 18px; 
     color: #b06f6f; 
@@ -36,7 +34,7 @@
     color: rgba(118, 100, 100, 0.82);
 }
 
-/*Responsive*/
+
 @media (max-width: 768px) {
     .navbar-container {
         height: auto; 
